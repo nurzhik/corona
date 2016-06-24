@@ -1,5 +1,24 @@
 
-
+/* font-family: "Philosopher" */
+@font-face {
+    font-family: "Philosopher";
+    src: url("../fonts/Philosopher/Philosopher.eot");
+    src: url("../fonts/Philosopher/Philosopher.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Philosopher/Philosopher.woff") format("woff"),
+    url("../fonts/Philosopher/Philosopher.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "Philosopher-Bold" */
+@font-face {
+    font-family: "Philosopher-Bold";
+    src: url("../fonts/Philosopher-Bold/Philosopher-Bold.eot");
+    src: url("../fonts/Philosopher-Bold/Philosopher-Bold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/Philosopher-Bold/Philosopher-Bold.woff") format("woff"),
+    url("../fonts/Philosopher-Bold/Philosopher-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 /* font-family: "PTSansBold" */
 @font-face {
     font-family: "PTSansBold";
@@ -32,7 +51,9 @@
     font-weight: normal;
 }
 /* font-family: "PTSansItcalic"; */
-
+.head {
+    padding-top: 20px;
+}
 .cr{
 width:1200px;
 margin:0 auto;
@@ -40,9 +61,14 @@ margin:0 auto;
 .logo {
     float: left;
     margin-bottom: 25px;
+    width: 119px;
+}
+.logo img {
+    width: 100%;
+    margin-top: 12px;
 }
 .slogan, .head_right_title {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     color: #0074c2;
     font-size: 18px;
     padding-top: 8px;
@@ -50,6 +76,7 @@ margin:0 auto;
     display: block;
     margin-left: 8px;
     margin-bottom: 8px;
+    text-transform: uppercase;
 }
 .head_right p, .head_right p a {
     color: #434343;
@@ -69,13 +96,14 @@ nav {
 .menu li {
     float: left;
     text-transform: uppercase;
+    list-style: none;
 }
 .menu li a {
-    padding: 9px 33px;
+    padding: 9px 31px;
     font-size: 14px;
     color: #fff;
     display: block;
-    font-family: "PTSansRegular";
+    font-family: "Philosopher";
 }
 .menu li a:hover,.menu li a.active {
     background: #005689;
@@ -101,7 +129,7 @@ nav {
     padding: 25px;
     background: rgba(0, 0, 0, 0.21);
     color: #fff;
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     font-size: 26px;
     float: left;
     margin-top: 80px;
@@ -116,7 +144,7 @@ nav {
     padding: 9px 30px;
     background: #0178be;
     font-size: 14px;
-    font-family: "PTSansRegular";
+    font-family: "Philosopher";
     color: #fff;
     text-transform: uppercase;
     display: inline-block;
@@ -161,7 +189,7 @@ nav {
     margin-top: 9px;
 }
 .main_title {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     font-size: 26px;
     color: #005689;
     text-transform: uppercase;
@@ -178,7 +206,7 @@ nav {
     border: 6px solid #0178be;
     padding: 25px 25px 18px;
     text-align: center;
-    font-family: "PTSAnsRegular";
+    font-family: "Philosopher";
     color: #0178c2;
     float: left;
     margin-right: 30px;
@@ -188,19 +216,19 @@ nav {
 }
 .title_service_item {
     font-size: 24px;
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     text-transform: uppercase;
     padding: 0 30px;
     background: #fff;
     position: absolute;
     top: -20px;
-    left: 24%;
+    left: 52px;
 }
 .service_item p,.price {
     margin-bottom: 14px;
 }
 .price {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     font-size: 20px;
 }
 .button_container {
@@ -212,7 +240,7 @@ nav {
     left: 24%;
 }
 .button_order {
-    font-family: "PTSansRegular";
+    font-family: "Philosopher";
     font-size: 14px;
     padding: 0 34px;
     line-height: 32px;
@@ -222,7 +250,7 @@ nav {
     color: #fff;
 }
 .title {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     text-align: center;
     font-size: 24px;
     color: #0178be;
@@ -236,7 +264,7 @@ nav {
     clear: both;
 }
 .title_footer {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
@@ -249,7 +277,7 @@ nav {
     border-right: 3px solid #fff;
     color: #fff;
     font-weight: 600;
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
 }
 .fotter_item p {
    margin-bottom: 5px;
@@ -280,7 +308,7 @@ nav {
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
     transition: all .2s ease;
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     font-weight: 600;
     text-transform: uppercase;
     list-style: none;
@@ -296,7 +324,7 @@ nav {
     border-right: 0px;
 }
 .fotter_item.three {
-    padding-left: 17px;
+    padding-left: 15px;
 }
 .reviews_container {
     background: #e8f6ff;
@@ -321,7 +349,7 @@ nav {
     display: block;
     float: left;
     width: 100%;
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
 }
 /*main end*/
 /*zakaz*/
@@ -329,6 +357,7 @@ nav {
     float: left;
     margin-right: 5px;
     color: #0178be;
+    list-style: none;
 }
 .breadcrumbs li:after {
     color: #0178be;
@@ -355,7 +384,10 @@ nav {
     height: 30px;
     float: right;
     text-indent: 8px;
+    padding: 0;
 }
+
+
 .form_item {
     /* font-family: "PTSansR"; */
     font-size: 14px;
@@ -383,7 +415,7 @@ nav {
     float: left;
     font-size: 14px;
 }
-#Upload0Attachment, #Upload1Attachment, #UserPhoto, #Upload2Attachment, #Upload3Attachment, #Upload4Attachment, #UserDoc1, #UserDoc2, #RecallPhoto, #photo, #file-3, #file-4, #file-5 {
+#Upload0Attachment, #OrderImg, #OrderSecondImage, #Upload2Attachment, #Upload3Attachment, #Upload4Attachment, #UserDoc1, #UserDoc2, #RecallPhoto, #photo, #file-3, #file-4, #file-5 {
     width: 0.1px;
     height: 0.1px;
     opacity: 0;
@@ -406,10 +438,24 @@ nav {
     background: #0178be;
     border: none;
     font-size: 14px;
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     color: #fff;
     padding: 0 15px;
     border-bottom: 2px solid #024167;
+    float: right;
+}
+.form_viza {
+    width: 500px;
+}
+.button:hover {
+    background: #104D71;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+}
+.inputfile.inputfile-4 + label:hover,.button_order:hover,.more:hover {
+    background: #104D71;
+    transition: all 0.4s ease-in;
+    cursor: pointer;
 }
 .inputfile.inputfile-4 + label span, .inputfile.inputfile-5 + label span {
     overflow: hidden;
@@ -422,7 +468,7 @@ nav {
     float: left;
 }
 .result {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     font-size: 18px;
     color: #0178be;
 }
@@ -440,7 +486,7 @@ nav {
     margin: 0 auto;
 }
 .form_title_revies {
-    font-family: "PTSansBold";
+    font-family: "Philosopher-Bold";
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 15px;
@@ -448,5 +494,125 @@ nav {
 }
 textarea.zakaz_item_form {
     height: 140px;
+}
+.title_ming {
+    font-family: "Philosopher-Bold";
+    font-size: 18px;
+    color: #005689;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.thank_you {
+    line-height: 45px;
+    background: #8fff87;
+    border-radius: 5px;
+    padding-left: 50px;
+    position: relative;
+    color: #005689;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.thank_you:before {
+	content: " ";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    background-size: cover;
+	background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDc2IDc2IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA3NiA3NjsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIyNHB4IiBoZWlnaHQ9IjI0cHgiPgo8ZyBpZD0iX3gzN183X0Vzc2VudGlhbF9JY29uc182NV8iPgoJPHBhdGggaWQ9IlRpY2siIGQ9Ik0zOCwwQzE3LDAsMCwxNywwLDM4czE3LDM4LDM4LDM4czM4LTE3LDM4LTM4UzU5LDAsMzgsMHogTTM4LDcyQzE5LjIsNzIsNCw1Ni44LDQsMzhTMTkuMiw0LDM4LDRzMzQsMTUuMiwzNCwzNCAgIFM1Ni44LDcyLDM4LDcyeiBNNjAuOSwyNS4xYy0wLjgtMC44LTItMC44LTIuOCwwTDMyLjYsNTAuN0wyMS45LDQwYy0wLjgtMC44LTIuMS0wLjgtMi44LDBjLTAuOCwwLjgtMC44LDIuMSwwLDIuOGwxMi4xLDEyLjEgICBjMC40LDAuNCwwLjksMC42LDEuNCwwLjZzMS0wLjIsMS40LTAuNmwyNi45LTI3QzYxLjcsMjcuMSw2MS43LDI1LjksNjAuOSwyNS4xeiIgZmlsbD0iIzAwNTY4OSIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=)}
+.zakaz_title {
+    background: #005689;
+    line-height: 30px;
+    color: #fff;
+    font-family: "Philosopher-Bold";
+    text-indent: 15px;
+}
+thead {
+    background-color: #00a1ff;
+    text-align: left;
+	margin-bottom:2px;
+}
+.highlited_row {
+    background: #ebebeb;
+    margin-top: 5px;
+}
+.table {
+    width: 100%;
+    text-indent: 15px;
+    line-height: 30px;
+    margin: 1px 0px;
+    color: #fff;
+    font-family: "Philosopher-Bold";
+}
+.table_body {
+    padding: 25px 25px;
+    border: 1px solid #959595;
+	 font-family: "Philosopher";
+}
+.table_body table tr td {
+    text-align: center;
+}
+.table_body table tr td:first-child {
+    text-indent: 15px;
+    text-align: left;
+}
+.table_body table {
+    width: 100%;
+    line-height: 40px;
+    /* text-indent: 15px; */
+}
+.titel_min {
+    background-color: #00a1ff;
+    text-align: left;
+    margin-bottom: 2px;
+    line-height: 40px;
+    font-family: "Philosopher-Bold";
+    text-indent: 15px;
+    color: #fff;
+    font-size: 16px;
+}
+.poluchatel {
+    padding: 25px 25px 15px 25px;
+    border: 1px solid #959595;
+    font-family: "Philosopher";
+    margin-bottom: 2px;
+}
+.poluchatel_item {
+    color: #005689;
+    display: block;
+    font-family: "Philosopher";
+    font-size: 16px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.stats {
+    display: inline-block;
+    padding: 0 7px;
+    line-height: 20px;
+    background: #fd434a;
+    color: #fff;
+    font-size: 14px;
+}
+.bad{
+	background: #fd434a;
+}
+.good {
+    background: #177310;
+}
+.poluchatel_item span {
+    width: 250px;
+    display: block;
+    font-family: "Philosopher-Bold";
+    float: left;
+}
+.go_plat {
+    color: #0095ee;
+    font-size: 16px;
+    text-decoration: underline;
+	font-family: "Philosopher";
+}
+.go_plat:hover{
+	text-decoration:none;
 }
 /*zakaz end*/
